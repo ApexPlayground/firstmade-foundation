@@ -103,16 +103,40 @@ const Register = () => {
       ],
     };
 
-    try {
-      const res = await fetch("https://sheetdb.io/api/v1/gpb2xb3uudz19", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(sheetPayload),
-      });
+    const emailFormData = new FormData();
+    emailFormData.append("First Name", form.firstname);
+    emailFormData.append("Last Name", form.lastname);
+    emailFormData.append("Address", form.address);
+    emailFormData.append("Age Group", form.ageBracket);
+    emailFormData.append("Phone Number", form.contactNumber);
+    emailFormData.append("Local Government Area", form.lga);
+    emailFormData.append("Town", form.town);
+    emailFormData.append("State", form.state);
+    emailFormData.append("Next of Kin", form.nextOfKin);
+    emailFormData.append("Occupation", form.vocation);
+    emailFormData.append("Are you a student?", form.isStudent);
+    emailFormData.append("Are you a foreigner?", form.isForeigner);
+    if (form.isForeigner === "Yes") {
+      emailFormData.append("Country of Origin", form.country);
+    }
+    emailFormData.append("_captcha", "false");
+    emailFormData.append("_template", "table");
+    emailFormData.append("_subject", "New NGO Registration");
 
-      if (res.ok) {
+    try {
+      const [sheetRes, emailRes] = await Promise.all([
+        fetch("https://sheetdb.io/api/v1/gpb2xb3uudz19", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(sheetPayload),
+        }),
+        fetch("https://formsubmit.co/firstmadefoundation02@gmail.com", {
+          method: "POST",
+          body: emailFormData,
+        }),
+      ]);
+
+      if (sheetRes.ok && emailRes.ok) {
         setSubmitted(true);
         setForm({
           firstname: "",
@@ -130,10 +154,10 @@ const Register = () => {
           country: "",
         });
       } else {
-        alert("Something went wrong while saving to Google Sheets.");
+        alert("One or more submissions failed. Please try again.");
       }
     } catch (err) {
-      alert("Submission failed. Please check your connection.");
+      alert("Submission failed. Please check your internet connection.");
       console.error(err);
     }
   };
@@ -208,7 +232,6 @@ const Register = () => {
               </div>
             ))}
 
-            {/* Age group dropdown */}
             <div>
               <select
                 name="ageBracket"
@@ -230,7 +253,6 @@ const Register = () => {
               )}
             </div>
 
-            {/* Student status */}
             <div>
               <select
                 name="isStudent"
@@ -247,7 +269,6 @@ const Register = () => {
               )}
             </div>
 
-            {/* Foreigner status */}
             <div>
               <select
                 name="isForeigner"
@@ -266,7 +287,6 @@ const Register = () => {
               )}
             </div>
 
-            {/* Country field only if foreigner */}
             {form.isForeigner === "Yes" && (
               <div className="md:col-span-2">
                 <input
