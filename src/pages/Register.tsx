@@ -83,35 +83,34 @@ const Register = () => {
     e.preventDefault();
     if (!canSubmit) return;
 
-    const formData = new FormData();
-    formData.append("First Name", form.firstname);
-    formData.append("Last Name", form.lastname);
-    formData.append("Address", form.address);
-    formData.append("Age Group", form.ageBracket);
-    formData.append("Phone Number", form.contactNumber);
-    formData.append("Local Government Area", form.lga);
-    formData.append("Town", form.town);
-    formData.append("State", form.state);
-    formData.append("Next of Kin", form.nextOfKin);
-    formData.append("Occupation", form.vocation);
-    formData.append("Are you a student?", form.isStudent);
-    formData.append("Are you a foreigner?", form.isForeigner);
-    if (form.isForeigner === "Yes") {
-      formData.append("Country of Origin", form.country);
-    }
-
-    formData.append("_captcha", "false");
-    formData.append("_template", "table");
-    formData.append("_subject", "New NGO Registration");
+    const sheetPayload = {
+      data: [
+        {
+          "First Name": form.firstname,
+          "Last Name": form.lastname,
+          Address: form.address,
+          "Age Group": form.ageBracket,
+          "Phone Number": form.contactNumber,
+          "Local Government Area": form.lga,
+          Town: form.town,
+          State: form.state,
+          "Next of Kin": form.nextOfKin,
+          Occupation: form.vocation,
+          "Are you a student?": form.isStudent,
+          "Are you a foreigner?": form.isForeigner,
+          "Country of Origin": form.isForeigner === "Yes" ? form.country : "",
+        },
+      ],
+    };
 
     try {
-      const res = await fetch(
-        "https://formsubmit.co/firstmadefoundation02@gmail.com",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
+      const res = await fetch("https://sheetdb.io/api/v1/gpb2xb3uudz19", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(sheetPayload),
+      });
 
       if (res.ok) {
         setSubmitted(true);
@@ -131,10 +130,10 @@ const Register = () => {
           country: "",
         });
       } else {
-        alert("Something went wrong. Please try again.");
+        alert("Something went wrong while saving to Google Sheets.");
       }
     } catch (err) {
-      alert("Failed to submit. Please check your connection.");
+      alert("Submission failed. Please check your connection.");
       console.error(err);
     }
   };
