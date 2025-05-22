@@ -134,7 +134,8 @@ const People = () => {
                 development.
               </p>
               <div className="text-center text-sm text-gray-600 mt-auto">
-                <span className="font-medium text-orange-600">Phone:</span>{" "}
+                <span className="font-medium text-orange-600">Phone:</span>+234
+                809 491 7896
                 {/* Optional */}
               </div>
             </div>
