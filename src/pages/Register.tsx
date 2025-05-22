@@ -15,10 +15,13 @@ const Register = () => {
     formData.append("_subject", "New NGO Registration");
 
     try {
-      const res = await fetch("https://formsubmit.co/ogbedivine7@gmail.com", {
-        method: "POST",
-        body: formData,
-      });
+      const res = await fetch(
+        "https://formsubmit.co/firstmadefoundation02@gmail.com",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
 
       if (res.ok) {
         setSubmitted(true);
