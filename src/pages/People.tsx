@@ -114,27 +114,28 @@ const People = () => {
               </div>
             </div>
           </FadeInWhenVisible>
-          <FadeInWhenVisible>
-            <div className="h-full bg-orange-50 rounded-xl shadow-lg p-6 border border-orange-100 hover:shadow-xl transition w-full flex flex-col">
+          <FadeInWhenVisible className="h-full">
+            <div className="bg-orange-50 rounded-xl shadow-lg p-6 border border-orange-100 hover:shadow-xl transition w-full h-full flex flex-col">
               <img
-                src="/Ogundele.jpeg"
-                alt="Ogundele Micheal"
+                src="/Aina.jpg"
+                alt="Babafemi Aina"
                 className="w-48 h-48 rounded-full object-cover mx-auto mb-4 border-4 border-orange-200"
               />
               <h2 className="text-xl font-bold text-center text-orange-700 mb-2">
-                Ogundele Micheal
+                Babafemi Aina MBA FCCA
               </h2>
               <p className="text-sm text-gray-700 text-center mb-4 flex-grow">
-                Ogundele Michael is an astute businessman. He's a Director in
-                Amunifasah Farms (cropping and animal husbandry), and on the
-                board of Firstmade Integrated Service Ltd (licensed for lithium
-                mining and exploration). He's active in service organizations
-                like the Y's Men Club of Lagos, Ilasamaja Lions Club, and the
-                Nigeria-Brazil Centre for Business Culture and Cooperation.
+                Babafemi is a seasoned finance specialist with over 23 years of
+                experience in audit, advisory, manufacturing, oil & gas, and
+                development sectors. He holds a BSc in Accounting from Oxford
+                Brookes University and an MBA from the University of East
+                London. He is a Fellow of the ACCA and sits on the board of
+                several foundations focused on impact and human capital
+                development.
               </p>
               <div className="text-center text-sm text-gray-600 mt-auto">
-                <span className="font-medium text-orange-600">Phone:</span> +234
-                803 194 0116
+                <span className="font-medium text-orange-600">Phone:</span>{" "}
+                {/* Optional */}
               </div>
             </div>
           </FadeInWhenVisible>
