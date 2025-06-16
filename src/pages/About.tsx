@@ -8,54 +8,10 @@ const About = () => {
 
         {/* Founder Image + Intro */}
         <div>
-          <img
-            src="/about.jpg"
-            alt="Olufemi Olusanya"
-            className="w-96 h-96 object-cover rounded-lg shadow-lg float-left mr-6 mb-4"
-          />
+
 
           <div className="text-[#222525] text-lg leading-relaxed">
-            {/* Founder Bio */}
-            <h2 className="text-2xl font-semibold text-orange-600 mb-4">
-              Olufemi Olusanya: Unmasking A Thoroughbred Professional With A
-              Heart of Gold
-            </h2>
-
-            <p className="mb-3">
-              Olufemi Olusanya, Founder of Firstmade Foundation, a humanitarian
-              organisation, is a seasoned professional with expertise in product
-              and service development analysis, tailored to dynamic market
-              environments.
-            </p>
-
-            <p className="mb-3">
-              Femi Olusanya is well-versed in benchmarking Total Quality
-              Management (TQM) practices. As the Area Sales Manager at Olam
-              Grains [Cfm] Lagos, he played a pivotal role in the launch and
-              establishment of three major brands.
-            </p>
-
-            <p className="mb-3">
-              His experiences spread across Business Strategy and Communication:
-              Tools for success in the manufacturing industry.
-            </p>
-
-            <p className="mb-3">
-              Femi Olusanya is an Associate Member of the Association of
-              Enterprise Risk Management Professionals and the Institute of
-              Direct Sales and Marketing Management.
-            </p>
-
-            <p className="mb-3">
-              Olufemi’s dedication to excellence and strategic thinking
-              continues to drive impactful results in sales, marketing, and
-              business development.
-            </p>
-
-            <p className="mb-3">
-              Beyond these professional services, Femi Olusanya is exceptionally
-              kind, generous, and compassionate.
-            </p>
+           
 
             {/* Foundation Info */}
             <h2 className="text-2xl font-semibold text-orange-600 mt-10 mb-5">

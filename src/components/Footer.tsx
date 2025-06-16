@@ -15,6 +15,12 @@ const Footer = () => {
           <Link to="/about" className="hover:text-orange-600 transition">
             About
           </Link>
+          <Link to="/founder" className="hover:text-orange-600 transition">
+            Founder
+          </Link>
+          <Link to="/advisor" className="hover:text-orange-600 transition">
+            Advisor
+          </Link>
           <Link to="/our-people" className="hover:text-orange-600 transition">
             Our People
           </Link>

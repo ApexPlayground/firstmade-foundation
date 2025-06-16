@@ -48,6 +48,12 @@ const Navbar = () => {
           <Link to="/about" className="text-black hover:text-orange-600">
             About
           </Link>
+          <Link to="/founder" className="text-black hover:text-orange-600">
+            Founder
+          </Link>
+          <Link to="/advisor" className="text-black hover:text-orange-600">
+            Advisor
+          </Link>
           <Link to="/our-people" className="text-black hover:text-orange-600">
             Our People
           </Link>
@@ -76,6 +82,21 @@ const Navbar = () => {
             className="block text-black hover:text-orange-600"
           >
             About
+          </Link>
+
+          <Link
+            to="/founder"
+            onClick={() => setMenuOpen(false)}
+            className="block text-black hover:text-orange-600"
+          >
+            Founder
+          </Link>
+          <Link
+            to="/advisor"
+            onClick={() => setMenuOpen(false)}
+            className="block text-black hover:text-orange-600"
+          >
+            Advisor
           </Link>
           <Link
             to="/our-people"

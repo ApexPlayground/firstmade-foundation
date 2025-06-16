@@ -9,33 +9,34 @@ const People = () => {
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 items-stretch">
+
+          {/* Mrs. Christy A. Eboigbe */}
           <FadeInWhenVisible>
             <div className="h-full bg-orange-50 rounded-xl shadow-lg p-6 border border-orange-100 hover:shadow-xl transition w-full">
               <img
-                src="/about.jpg"
-                alt="Mr. Olufemi Olusanya"
-                className="w-48 h-48 rounded-full object-cover mx-auto mb-4 border-4 border-orange-200"
+                src="/everfresh.jpeg"
+                alt="Mrs. Christy A. Eboigbe"
+                className="w-48 h-48 rounded-full object-cover object-top mx-auto mb-4 border-4 border-orange-200"
               />
               <h2 className="text-xl font-bold text-center text-orange-700 mb-2">
-                Mr. Olufemi Olusanya
+                Mrs. Christy A. Eboigbe
               </h2>
-              <p className="text-sm text-gray-700 text-center mb-4">
-                Business strategist, marketing consultant, and Area Sales
-                Manager at Olam Grains, Lagos. Olufemi has led the launch of top
-                brands like MamaGold and Crown Premium. With a deep background
-                in product development, TQM, and sales optimization, he’s a
-                recognized force in Nigeria’s business landscape. Passionate
-                about youth empowerment and community development, he also
-                spearheads initiatives like the Okun Marathon through the
-                Firstmade Foundation.
+              <p className="text-sm text-gray-700 text-center italic mb-2">
+                “Madam Everfresh”
               </p>
+             <p className="text-sm text-gray-700 text-center mb-4">
+                A seasoned entrepreneur with a passion for building and managing multiple successful businesses,
+                Mrs. Christy A. Eboigbe finds true fulfillment in empowering others, especially young people,
+                to discover their potential and take bold steps toward their goals.
+                As a mentor, she values connection, growth, and community development, often engaging with
+                young minds ready to make their mark on the world. Her work continues to reflect her passion
+                for inspiring and supporting the next generation.
+             </p>
 
-              <div className="text-center text-sm text-gray-600 mt-4">
-                <span className="font-medium text-orange-600">Phone:</span> +234
-                808 565 9220
-              </div>
             </div>
           </FadeInWhenVisible>
+
+
 
           {/* Chief Kayode Olutayo John */}
           <FadeInWhenVisible>
@@ -68,7 +69,7 @@ const People = () => {
               <img
                 src="/Ogundele.jpeg"
                 alt="Ogundele Micheal"
-                className="w-48 h-48 rounded-full object-cover mx-auto mb-4 border-4 border-orange-200"
+                className="w-48 h-48 object-fill rounded-full object-cover mx-auto mb-4 border-4 border-orange-200"
               />
               <h2 className="text-xl font-bold text-center text-orange-700 mb-2">
                 Ogundele Micheal
@@ -89,12 +90,42 @@ const People = () => {
               </div>
             </div>
           </FadeInWhenVisible>
+
+          {/* Tayo Leslie */}
+          <FadeInWhenVisible>
+            <div className="h-full bg-orange-50 rounded-xl shadow-lg p-6 border border-orange-100 hover:shadow-xl transition w-full">
+              <img
+                src="/leslie.jpeg"
+                alt="Tayo Leslie"
+                className="w-48 h-48 rounded-full object-cover object-top mx-auto mb-4 border-4 border-orange-200"
+
+              />
+              <h2 className="text-xl font-bold text-center text-orange-700 mb-2">
+                Tayo Leslie
+              </h2>
+             <p className="text-sm text-gray-700 text-center mb-4">
+              Tayo Leslie is a dedicated professional accountant whose career began at the Federal Ministry
+              of Agriculture and progressed to key government roles within the Office of the Secretary to
+              the Government of the Federation (OSGF). Known for her financial expertise and leadership,
+              she served as Project Accountant to prominent government officials, including Senator Ita Enang
+              and Senator Babajide Omoworare, both former Special Advisers to the President on National Assembly Matters.
+              Tayo is also a passionate sports enthusiast and devoted parent, admired for her discipline, integrity,
+              and deep commitment to community service.
+             </p>
+             <div className="text-center text-sm text-gray-600 mt-4">
+                <span className="font-medium text-orange-600">Phone:</span>
+              </div>
+
+
+            </div>
+          </FadeInWhenVisible>
+
           <FadeInWhenVisible>
             <div className="h-full bg-orange-50 rounded-xl shadow-lg p-6 border border-orange-100 hover:shadow-xl transition w-full">
               <img
                 src="/Davis.jpeg"
                 alt="Mr. Davies Olaoye Dada"
-                className="w-48 h-48 rounded-full object-cover mx-auto mb-4 border-4 border-orange-200"
+                className="w-48 h-48 rounded-full object-cover object-top mx-auto mb-4 border-4 border-orange-200"
               />
               <h2 className="text-xl font-bold text-center text-orange-700 mb-2">
                 Mr. Davies Olaoye Dada
@@ -119,7 +150,7 @@ const People = () => {
               <img
                 src="/Aina.jpg"
                 alt="Babafemi Aina"
-                className="w-48 h-48 rounded-full object-cover mx-auto mb-4 border-4 border-orange-200"
+                className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-orange-200"
               />
               <h2 className="text-xl font-bold text-center text-orange-700 mb-2">
                 Babafemi Aina MBA FCCA
