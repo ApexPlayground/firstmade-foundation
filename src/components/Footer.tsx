@@ -12,19 +12,34 @@ const Footer = () => {
           <Link to="/" className="hover:text-orange-600 transition">
             Home
           </Link>
-          <Link to="/about" className="hover:text-orange-600 transition">
+          <Link
+            to="/about"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
             About
           </Link>
-          <Link to="/founder" className="hover:text-orange-600 transition">
+          <Link
+            to="/founder"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
             Founder
           </Link>
-          <Link to="/advisor" className="hover:text-orange-600 transition">
+          <Link
+            to="/advisor"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
             Advisor
           </Link>
-          <Link to="/our-people" className="hover:text-orange-600 transition">
+          <Link
+            to="/our-people"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
             Our People
           </Link>
-          <Link to="/register" className="hover:text-orange-600 transition">
+          <Link
+            to="/register"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
             Register
           </Link>
         </div>

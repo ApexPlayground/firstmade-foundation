@@ -87,6 +87,7 @@ const Home = () => {
             "/home4.jpeg",
             "/home5.jpg",
             "/home6.jpg",
+            "/home7.jpeg",
           ].map((src, i) => (
             <FadeInWhenVisible key={i}>
               <div key={i} className="overflow-hidden rounded-lg shadow-lg">

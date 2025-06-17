@@ -42,19 +42,35 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <div className="hidden lg:flex items-center space-x-12">
-          <Link to="/" className="text-black hover:text-orange-600">
+          <Link
+            to="/"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
             Home
           </Link>
-          <Link to="/about" className="text-black hover:text-orange-600">
+
+          <Link
+            to="/about"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
             About
           </Link>
-          <Link to="/founder" className="text-black hover:text-orange-600">
+          <Link
+            to="/founder"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
             Founder
           </Link>
-          <Link to="/advisor" className="text-black hover:text-orange-600">
+          <Link
+            to="/advisor"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
             Advisor
           </Link>
-          <Link to="/our-people" className="text-black hover:text-orange-600">
+          <Link
+            to="/our-people"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
             Our People
           </Link>
           <Link
@@ -72,14 +88,14 @@ const Navbar = () => {
           <Link
             to="/"
             onClick={() => setMenuOpen(false)}
-            className="block text-black hover:text-orange-600"
+            className="block text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
           >
             Home
           </Link>
           <Link
             to="/about"
             onClick={() => setMenuOpen(false)}
-            className="block text-black hover:text-orange-600"
+            className="block text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
           >
             About
           </Link>
@@ -87,21 +103,21 @@ const Navbar = () => {
           <Link
             to="/founder"
             onClick={() => setMenuOpen(false)}
-            className="block text-black hover:text-orange-600"
+            className="block text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
           >
             Founder
           </Link>
           <Link
             to="/advisor"
             onClick={() => setMenuOpen(false)}
-            className="block text-black hover:text-orange-600"
+            className="block text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
           >
             Advisor
           </Link>
           <Link
             to="/our-people"
             onClick={() => setMenuOpen(false)}
-            className="block text-black hover:text-orange-600"
+            className="block text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
           >
             Our People
           </Link>
