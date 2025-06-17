@@ -63,8 +63,8 @@ const People = () => {
                 agritech, trade, and development initiatives.
               </p>
               <div className="text-center text-sm text-gray-600 mt-4">
-                <span className="font-medium text-orange-600">Phone:</span> +234
-                803 XXX XXXX
+                <span className="font-medium text-orange-600">Phone: </span>+234
+                803 493 6817
               </div>
             </div>
           </FadeInWhenVisible>
@@ -127,7 +127,7 @@ const People = () => {
               </p>
               <div className="text-center text-sm text-gray-600 mt-4">
                 <span className="font-medium text-orange-600">Phone:</span> +234
-                XXX XXX XXXX
+                701 148 0620
               </div>
             </div>
           </FadeInWhenVisible>
@@ -159,7 +159,7 @@ const People = () => {
               </p>
 
               <div className="text-center text-sm text-gray-600 ">
-                <span className="font-medium text-orange-600">Phone:</span>+234
+                <span className="font-medium text-orange-600">Phone: </span>+234
                 809 491 7896
               </div>
             </div>
@@ -194,7 +194,7 @@ const People = () => {
               </p>
               <div className="text-center text-sm text-gray-600 mt-auto">
                 <span className="font-medium text-orange-600">Phone:</span> +234
-                XXX XXX XXXX
+                806 658 2783
               </div>
             </div>
           </FadeInWhenVisible>
@@ -245,6 +245,9 @@ const People = () => {
               <h2 className="text-xl font-bold text-center text-orange-700 mb-2">
                 Mrs. Tayo Leslie
               </h2>
+              <p className="text-sm text-center text-orange-600 font-semibold mb-2">
+                Member
+              </p>
               <p className="text-sm text-gray-700 text-center mb-4">
                 Tayo Leslie is a dedicated professional accountant whose career
                 began at the Federal Ministry of Agriculture and progressed to
