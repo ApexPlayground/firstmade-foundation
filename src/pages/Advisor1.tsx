@@ -10,7 +10,7 @@ const Advisor = () => {
           <img
             src="/advisor.jpeg"
             alt="Princess Edna D.D. Azura"
-            className="w-96 h-auto object-cover shadow-lg rounded-lg float-left mr-6 mb-4"
+            className="w-96 h-96 object-cover object-top shadow-lg rounded-lg float-left mr-6 mb-4"
           />
 
           <div className="text-[#222525] text-lg leading-relaxed">
@@ -73,18 +73,7 @@ const Advisor = () => {
               She is also a gospel artist with five uplifting albums that reflect her spiritual commitment and passion for ministry.
             </p>
 
-            <h3 className="text-xl font-semibold text-orange-600 mt-8 mb-3">
-              Professional Contributions
-            </h3>
-
-            <ul className="list-disc list-inside mb-3">
-              <li>Management Expectations of Modern Sales</li>
-              <li>Sales and Marketing in a Recession</li>
-              <li>Evaluating Sales Performance in a Global Downturn</li>
-              <li>Business Strategy and Communication for market segmentation</li>
-              <li>Synergy Between Strategy and Value Chain Enhancement</li>
-              <li>Creating High-Performance Project Teams</li>
-            </ul>
+            
 
             <h3 className="text-xl font-semibold text-orange-600 mt-8 mb-3">
               Personal Life & Vision

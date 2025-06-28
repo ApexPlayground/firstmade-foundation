@@ -5,10 +5,10 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="">
+    <nav className="bg-white fixed top-0 w-full z-50  ">
       <div className="max-w-screen-2xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-bold text-black">
+        <Link to="/" className="text-2xl font-bold text-orange-600">
           Firstmade Foundation
         </Link>
 
@@ -61,12 +61,31 @@ const Navbar = () => {
           >
             Founder
           </Link>
+
           <Link
             to="/advisor"
             className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
           >
-            Advisor
+
+            Advisor 1
           </Link>
+
+           <Link
+            to="/advisor2"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
+
+            Advisor 2
+          </Link>
+
+           <Link
+            to="/advisor3"
+            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
+
+            Advisor 3
+          </Link>
+
           <Link
             to="/our-people"
             className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
@@ -112,7 +131,23 @@ const Navbar = () => {
             onClick={() => setMenuOpen(false)}
             className="block text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
           >
-            Advisor
+            Advisor 1
+          </Link>
+
+          <Link
+            to="/advisor2"
+            onClick={() => setMenuOpen(false)}
+            className="block text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
+            Advisor 2
+          </Link>
+
+          <Link
+            to="/advisor3"
+            onClick={() => setMenuOpen(false)}
+            className="block text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
+          >
+            Advisor 3
           </Link>
           <Link
             to="/our-people"

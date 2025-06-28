@@ -31,10 +31,10 @@ const People = () => {
                 real estate. His career is a testament to perseverance, growth,
                 and excellence.
               </p>
-              <div className="text-center text-sm text-gray-600 mt-4">
+              {/* <div className="text-center text-sm text-gray-600 mt-4">
                 <span className="font-medium text-orange-600">Phone:</span> +234
                 805 269 4400
-              </div>
+              </div> */}
             </div>
           </FadeInWhenVisible>
 
@@ -62,10 +62,10 @@ const People = () => {
                 like-minded individuals and explore new opportunities in
                 agritech, trade, and development initiatives.
               </p>
-              <div className="text-center text-sm text-gray-600 mt-4">
+              {/* <div className="text-center text-sm text-gray-600 mt-4">
                 <span className="font-medium text-orange-600">Phone: </span>+234
                 803 493 6817
-              </div>
+              </div> */}
             </div>
           </FadeInWhenVisible>
 
@@ -93,10 +93,10 @@ const People = () => {
                 Coordinator Nigeria-Brazil Centre for Business Culture and
                 Cooperation(A Chamber of Commerce Incorporated in Brazil)
               </p>
-              <div className="text-center text-sm text-gray-600 mt-4">
+              {/* <div className="text-center text-sm text-gray-600 mt-4">
                 <span className="font-medium text-orange-600">Phone:</span>+234
                 802 330 4382
-              </div>
+              </div> */}
             </div>
           </FadeInWhenVisible>
 
@@ -125,10 +125,10 @@ const People = () => {
                 AMAC and Operation Feed Waru. She is also the National Director
                 of Hope Project-2022, Chairman of MMSD, and CEO of CARL.
               </p>
-              <div className="text-center text-sm text-gray-600 mt-4">
+              {/* <div className="text-center text-sm text-gray-600 mt-4">
                 <span className="font-medium text-orange-600">Phone:</span> +234
                 701 148 0620
-              </div>
+              </div> */}
             </div>
           </FadeInWhenVisible>
 
@@ -158,10 +158,10 @@ const People = () => {
                 excellence and long-term value creation.
               </p>
 
-              <div className="text-center text-sm text-gray-600 ">
+              {/* <div className="text-center text-sm text-gray-600 ">
                 <span className="font-medium text-orange-600">Phone: </span>+234
                 809 491 7896
-              </div>
+              </div> */}
             </div>
           </FadeInWhenVisible>
 
@@ -192,10 +192,10 @@ const People = () => {
                 mark on the world. Her work continues to reflect her passion for
                 inspiring and supporting the next generation.
               </p>
-              <div className="text-center text-sm text-gray-600 mt-auto">
+              {/* <div className="text-center text-sm text-gray-600 mt-auto">
                 <span className="font-medium text-orange-600">Phone:</span> +234
                 806 658 2783
-              </div>
+              </div> */}
             </div>
           </FadeInWhenVisible>
 
@@ -227,10 +227,10 @@ const People = () => {
                 community development.
               </p>
 
-              <div className="text-center text-sm text-gray-600 mt-4">
+              {/* <div className="text-center text-sm text-gray-600 mt-4">
                 <span className="font-medium text-orange-600">Phone:</span> +234
                 803 194 0116
-              </div>
+              </div> */}
             </div>
           </FadeInWhenVisible>
 
@@ -260,10 +260,10 @@ const People = () => {
                 passionate sports enthusiast and devoted parent, admired for her
                 discipline, integrity, and deep commitment to community service.
               </p>
-              <div className="text-center text-sm text-gray-600 mt-4">
+              {/* <div className="text-center text-sm text-gray-600 mt-4">
                 <span className="font-medium text-orange-600">Phone: </span>
                 +234 805 358 6334
-              </div>
+              </div> */}
             </div>
           </FadeInWhenVisible>
         </div>
