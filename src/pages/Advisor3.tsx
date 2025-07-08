@@ -54,9 +54,10 @@ const Advisor3 = () => {
               Mrs. Adubi’s philosophy is centered around people—uplifting others, celebrating their achievements, and giving back to the community. This value system has helped her build a resilient and influential presence in the business world.
             </p>
 
-            <p className="mb-3">
-              Her life and career embody a commitment to purpose, service, and legacy.
-            </p>
+          <p className="mb-3">
+  Her life and career embody a commitment to purpose, service, and legacy. She is happily married to Mr. Adubi Hezekiah Adaleye, and they are blessed with beautiful children.
+</p>
+
           </div>
         </div>
       </div>
