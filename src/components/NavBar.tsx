@@ -67,24 +67,10 @@ const Navbar = () => {
             className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
           >
 
-            Advisor 1
+            Advisors
           </Link>
 
-           <Link
-            to="/advisor2"
-            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
-          >
-
-            Advisor 2
-          </Link>
-
-           <Link
-            to="/advisor3"
-            className="text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
-          >
-
-            Advisor 3
-          </Link>
+         
 
           <Link
             to="/our-people"
@@ -131,24 +117,10 @@ const Navbar = () => {
             onClick={() => setMenuOpen(false)}
             className="block text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
           >
-            Advisor 1
+            Advisors
           </Link>
 
-          <Link
-            to="/advisor2"
-            onClick={() => setMenuOpen(false)}
-            className="block text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
-          >
-            Advisor 2
-          </Link>
-
-          <Link
-            to="/advisor3"
-            onClick={() => setMenuOpen(false)}
-            className="block text-black hover:text-orange-600 focus:text-orange-600 transition-colors duration-200"
-          >
-            Advisor 3
-          </Link>
+         
           <Link
             to="/our-people"
             onClick={() => setMenuOpen(false)}

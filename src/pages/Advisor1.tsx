@@ -1,4 +1,4 @@
-const Advisor = () => {
+const Advisor1 = () => {
   return (
     <section className="py-10">
       <div className="max-w-screen-2xl mx-auto px-4 lg:px-20">
@@ -97,4 +97,4 @@ const Advisor = () => {
   );
 };
 
-export default Advisor;
+export default Advisor1;

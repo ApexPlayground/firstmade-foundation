@@ -11,10 +11,13 @@ const Home = () => {
             Service to Humanity
           </h1>
           <p className="text-lg text-[#222525] leading-relaxed max-w-xl">
-            Firstmade Foundation is a non-profit organization dedicated to
-            service to humanity and social responsibility. Our mission is to
-            uplift our communities by promoting self-development, youth
-            empowerment, and a culture of personal responsibility.
+            Firstmade Foundation was established in 2024 by Ln. Oluwafemi David
+            Olusanya, a member of the Lions Club International. Initially focused
+            on sports development, the Foundation’s mission evolved to include
+            education scholarships, health promotion, and youth diversion programs
+            across rural communities in Nigeria. Key milestones include empowering
+            over 500 youths, supporting 5 communities with medical outreaches, and
+            plans to provide over 300 education scholarships by 2028.
           </p>
         </div>
 
@@ -32,9 +35,10 @@ const Home = () => {
       </div>
 
       <div className="max-w-screen-2xl mx-auto px-4 lg:px-20 grid gap-10 md:grid-cols-2 mt-20 items-stretch">
+
         {/* Objectives Card */}
         <FadeInWhenVisible>
-          <div className="h-full bg-orange-50 rounded-xl shadow-lg p-6 border border-orange-100 hover:shadow-xl transition flex flex-col min-h-full w-full">
+          <div className="bg-orange-50 rounded-xl shadow-lg p-6 border border-orange-100">
             <>
               <h2 className="text-2xl font-bold text-orange-600 mb-4">
                 Objectives
@@ -54,24 +58,66 @@ const Home = () => {
           </div>
         </FadeInWhenVisible>
 
-        {/* Aims Card */}
+        {/* Aims */}
         <FadeInWhenVisible>
           <div className="h-full bg-orange-50 rounded-xl shadow-lg p-6 border border-orange-100 hover:shadow-xl transition flex flex-col min-h-full w-full">
-            <>
-              <h2 className="text-2xl font-bold text-orange-600 mb-4">Aims</h2>
-              <ul className="space-y-3 text-[#222525] text-base list-disc list-inside">
-                <li>To alleviate suffering and improve well-being</li>
-                <li>
-                  To facilitate access to essential services (e.g. healthcare,
-                  education, sports)
-                </li>
-                <li>
-                  To build partnerships and collaborations for greater impact
-                </li>
-              </ul>
-            </>
+            <h2 className="text-2xl font-bold text-orange-600 mb-4">Aims</h2>
+            <ul className="space-y-3 text-[#222525] text-base list-disc list-inside">
+              <li>To alleviate suffering and improve well-being</li>
+              <li>To facilitate access to essential services (e.g. healthcare, education, sports)</li>
+              <li>To build partnerships and collaborations for greater impact</li>
+            </ul>
           </div>
         </FadeInWhenVisible>
+
+        {/* Organization Governance */}
+        <FadeInWhenVisible>
+          <div className="bg-orange-50 rounded-xl shadow-lg p-6 border border-orange-100">
+            <h2 className="text-2xl font-bold text-orange-600 mb-4">Organization Governance</h2>
+            <p className="text-[#222525] text-base leading-relaxed mb-2">
+              The organization is governed by a Board of Trustees, responsible for oversight and strategic decision-making. Day-to-day operations are managed by an Executive Director, with program heads for sports, education, health promotion outreaches, and crime prevention. Regional coordinators lead efforts in various states, supported by volunteer staff.
+            </p>
+            <p className="text-[#222525] text-base leading-relaxed">
+              Key Programs:
+              <ul className="list-disc list-inside mt-2 space-y-1">
+                <li>Youth Sports Empowerment: organized sports tournaments and mentorship.</li>
+                <li>Education Scholarships: providing scholarships for underserved youth.</li>
+                <li>Health Promotion: medical outreaches including free screenings and mental health support.</li>
+              </ul>
+            </p>
+          </div>
+        </FadeInWhenVisible>
+
+        {/* Partnerships */}
+        <FadeInWhenVisible>
+          <div className="bg-orange-50 rounded-xl shadow-lg p-6 border border-orange-100">
+            <h2 className="text-2xl font-bold text-orange-600 mb-4">Partnerships</h2>
+            <ul className="list-disc list-inside space-y-2 text-[#222525] text-base">
+              <li>Partnered with the National Sports Commission and Ministry of Youth & Development for youth skills training & programs.</li>
+              <li>Ongoing collaborations with local NGOs for empowerment and health outreach.</li>
+              <li>Partnership with Nigerian Ministry of Youth Affairs for grassroots policy advocacy.</li>
+              <li>Member of Nigerian Youth Coalition for Development; affiliated with Global Youth Empowerment Network.</li>
+            </ul>
+          </div>
+        </FadeInWhenVisible>
+
+        {/* Staff & Funding */}
+        <FadeInWhenVisible>
+          <div className="bg-orange-50 rounded-xl shadow-lg p-6 border border-orange-100">
+            <h2 className="text-2xl font-bold text-orange-600 mb-4">Staff & Funding</h2>
+            <ul className="list-disc list-inside space-y-2 text-[#222525] text-base">
+              <li>35 full-time staff with expertise in youth development, education, healthcare, and project management.</li>
+              <li>Annual staff training on leadership, youth mentoring, and project management.</li>
+              <li>Currently funded mainly through the founder’s personal investments, seeking grants and donations to expand programs.</li>
+            </ul>
+          </div>
+        </FadeInWhenVisible>
+
+
+
+
+
+
       </div>
 
       <div className="py-16 max-w-screen-2xl mx-auto px-4 lg:px-20">
